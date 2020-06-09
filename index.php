@@ -6,12 +6,10 @@
     <title>partie 3 exercice 1</title>
 </head>
 <body>
-    <p>
         <?php
             for ($increment = 0; $increment <= 10; $increment++) {
-                echo "<p>$increment</p>";
+                echo '<p>' . $increment . '</p>';
             }
         ?>
-    </p>
 </body>
 </html>
